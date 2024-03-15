@@ -9,4 +9,5 @@ The following steps were followed:
 
 - Technologies: AWS RDS, R, MySQL
 - Database concepts covered : Procedures, Triggers, Graph plotting(ggplot)
+  
 Please refer the PDF to see the code along with its execution.
