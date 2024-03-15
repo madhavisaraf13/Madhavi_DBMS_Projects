@@ -2,7 +2,7 @@
 Technologies used, Concepts covered: AWS RDS/ local MYSQL database for construction of database, R, Star/snowflake schema, Fact table, OLTP/OLAP, datawarehouse. XML Parsing, DTD for XML validation, XPath
 
 Workflow:
-Extract data from an XML document (31 MB with ~10 million lines) and then transform and store the data relationally in a SQLite database which represents a "transactional" database. 
+Extract data from an XML document (31 MB with ~1 million lines) and then transform and store the data relationally in a SQLite database which represents a "transactional" database. 
 Then I am extracting the  data from the transactional database and create an "analytical" database/loading it into a datawarehouse using a star schema in MySQL. 
 Finally, querying the facts from the MySQL analytical database / datawarehouse which will require that you connect to two different databases simultaneously.
 
